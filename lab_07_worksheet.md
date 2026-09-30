@@ -103,7 +103,7 @@ ClassBadge deployed to: 0xd1AB98277b5c8fde755522687B233dA055A19458
 Minted Badge #0 for Phạm Thu Hà successfully!
 ```
 
-![test](deploy.jpg)
+![test](screenshots/deploy.jpg)
 
 
 **Chuyển 100 CTK cho bạn cùng lớp:**
@@ -115,13 +115,13 @@ TOKEN=0x84C3D423717A85CA27195542056ad8d553EefD37 TO=0xccD639c18E7DbE514824031a23
 Đang chuyển 100 CTK tới địa chỉ 0xccD639c18E7DbE514824031a2358328453825327...
 Chuyển thành công 100 CTK!
 ```
-![test](interact.jpg)
+![test](screenshots/interact.jpg)
 
 
 **Ảnh MetaMask (Import tokens + số dư CTK):**
-![MetaMask CTK](b3_metamask_ctk.png)
+![MetaMask CTK](screenshots/b3_metamask_ctk.png)
 
-![MetaMask CTK](trustkeyblock_explorer.jpg)
+![MetaMask CTK](screenshots/trustkeyblock_explorer.jpg)
 
 
 **Giải mã tokenURI của ClassBadge:**
@@ -149,7 +149,7 @@ SVG sau khi giải mã:
 ```
 
 **Ảnh kết quả `read-badge.js`:**
-![read-badge](b3_read_badge.png)
+![read-badge](screenshots/b3_read_badge.png)
 
 **Q6 / Câu 6: TrustKeys has no public explorer. How did you confirm the 100-CTK transfer landed? / Không có explorer — bạn xác nhận giao dịch bằng cách nào?**
 
@@ -168,7 +168,7 @@ npx hardhat test
 ```
 
 **Ảnh kết quả :**
-![test](passing_test.jpg)
+![test](screenshots/passing_test.jpg)
 
 
 **Q7 / Câu 7: What stops someone from replaying your permit signature on a second chain or a second time? / Điều gì chặn tấn công replay chữ ký permit?**
